@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Be BOLD</title>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="jquery-3.2.0.min.js"></script>
+</head>
+
+<body>
+    <div>
+        <center>
+            <a href="index.html"> <img src="withRoseLogo.png" id="logo"></a>
+        </center>
+        <p id="adventure">...and so the adventure begins</p>
+        <div class="dropdown" id="prevcontent">
+            PREVIOUS CONTENT
+            <div class="dropdown-content">
+                <a href="firstPost.html">Be BOLD</a>
+                <br>
+                <a href="someThoughts.html">Some Thoughts</a>
+            </div>
+        </div>
+        <a href="contact.html" class="dropdown" id="link">ABOUT ME</a>
+        <div id="pics">
+            <img id="firstphoto" src="pic1.jpg" class="photos">
+            <br>
+            <img src="pic2.jpg" class="photos">
+            <br>
+            <img src="pic3.jpg" class="photos">
+            <br>
+        </div>
+        <div id="content">
+            <p>BOLD. Because when you're wearing all black, it's like bold font, you know? ... I know I know, bad start to a blog. But welcome to my first post! I am excited to share my stories with you.</p>
+            <p> First things first, I love black. Maybe it's because I've always dreamed of being a New Yorker (and are you even a true New Yorker if you don't wear all black every day?), but I love how streamlined and effortlessly professional you look when you wear all black. To avoid looking boring, try adding a little pizzaz to your outfit, maybe by incorporating different materials like this leather jacket against the chiffon top, or encorporating hints of white like these bomb ass pants, or by peeping a little bit of skin through strategically placed cutouts. Sexy, but not too try hard, you know? What do you think? Is all black the answer?</p>
+        </div>
+    </div>
+</body>
+<script>
+$(document).scroll(function() {
+	$("#content").toggle($(this).scrollTop() > 400);
+	console.log("hello");
+
+    //$("#content").toggle($(this).scrollTop() > 100);
+})
+
+</script>
+
+</html>

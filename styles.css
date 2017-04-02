@@ -1,0 +1,272 @@
+body {
+    font-family: "Josefin Sans";
+}
+
+#logo {
+    width: 30%;
+    padding-top: 5%;
+}
+
+#adventure {
+    font-family: "Dancing Script";
+    font-size: 30px;
+    text-align: right;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    text-shadow: 4px 4px 2px #FFDAB9;
+}
+
+.dropdown {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 40px;
+    z-index: 1;
+}
+
+.dropdown:hover {
+    font-weight: 900;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: #FFDAB9;
+    width: 150px;
+    z-index: 1;
+    padding: 20px 16px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+}
+
+.dropdown-content a:hover {
+    font-weight: 800;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#prevcontent {
+    float: left;
+    margin-left: 25%;
+    position: absolute;
+}
+
+#link {
+    position: absolute;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    float: left;
+    margin-left: 75%;
+}
+
+#collage {
+    width: 40%;
+    float: left;
+    padding: 15px;
+    outline: 5px solid #FFDAB9;
+    outline-offset: -30px;
+    margin-left: 100px;
+    margin-top: 75px;
+}
+
+#firstheader {
+    float: left;
+    margin-left: 60%;
+    font-size: 40px;
+    position: absolute;
+    outline: 2px solid white;
+    outline-offset: -10px;
+    margin-top: 90px;
+    padding-top: 50px;
+    background-color: #FFDAB9;
+    text-align: center;
+    text-align: center;
+    margin-left: 55%;
+    width: 460px;
+    height: 100px;
+}
+
+#aboutheader {
+    float: left;
+    margin-left: 32%;
+    font-size: 40px;
+    position: absolute;
+    outline: 2px solid white;
+    outline-offset: -10px;
+    margin-top: 68px;
+    padding-top: 50px;
+    background-color: #FFDAB9;
+    text-align: center;
+    text-align: center;
+    width: 460px;
+    height: 100px;
+}
+
+.continue {
+    text-align: right;
+}
+
+.continue:hover {
+    font-weight: bold;
+}
+
+.continue a {
+    text-decoration: none;
+    color: black;
+}
+
+#text-body {
+    background-color: #FFDAB9;
+    width: 340px;
+    text-align: center;
+    padding: 90px 60px 90px 60px;
+    outline: 2px solid white;
+    outline-offset: -10px;
+    position: absolute;
+    margin-left: 55%;
+    margin-top: 288px;
+}
+
+#header1 {
+    float: left;
+    margin-left: 0;
+    font-size: 40px;
+    position: absolute;
+    outline: 2px solid white;
+    outline-offset: -10px;
+    margin-top: 70px;
+    padding-top: 50px;
+    background-color: #FFDAB9;
+    text-align: center;
+    text-align: center;
+    width: 460px;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 688px;
+}
+
+#text-body1 {
+    background-color: #FFDAB9;
+    width: 340px;
+    text-align: center;
+    padding: 90px 60px 90px 60px;
+    outline: 2px solid white;
+    outline-offset: -10px;
+    position: absolute;
+    margin-top: 888px;
+    margin-left: 100px;
+}
+
+#collage1 {
+    width: 40%;
+    float: left;
+    padding: 15px;
+    outline: 5px solid #FFDAB9;
+    outline-offset: -30px;
+    margin-left: 50%;
+    margin-top: 70px;
+}
+
+
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+
+#firstphoto {
+    margin-top: 75px;
+}
+
+.photos {
+    float: left;
+    width: 300px;
+    margin: 15px;
+    margin-left: 150px;
+    position: relative;
+    outline: 2px solid #FFDAB9;
+    outline-offset: -10px;
+}
+
+#pics {
+    float: left;
+}
+
+#content {
+    float: left;
+    position: fixed;
+    font-size: 20px;
+    line-height: 30px;
+    overflow: auto;
+    background-color: #FFDAB9;
+    padding: 70px;
+    width: 500px;
+    margin-left: 40%;
+    top: 75px;
+    outline: 2px solid white;
+    outline-offset: -30px;
+    height: 300px;
+    text-align: center;
+}
+
+#content li {
+    list-style-type: none;
+}
+
+#readings {
+    line-height: 25px;
+}
+
+#readings a {
+    text-decoration: none;
+    color: black;
+}
+
+#readings a:hover {
+    font-weight: bold;
+    font-size: 21px;
+}
+
+
+/*
+
+
+
+
+
+
+*/
+
+#aboutcontent {
+    text-align: center;
+    line-height: 30px;
+    position: relative;
+    margin-top: 300px;
+}
+
+#connect {
+    text-align: center;
+}
+
+#connect img {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
