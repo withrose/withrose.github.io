@@ -7,6 +7,29 @@
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script src="jquery-3.2.0.min.js"></script>
+<!-- <style>
+div.bebold {
+    float: left;
+    position: absolute;
+    font-size: 20px;
+    line-height: 30px;
+    overflow: auto;
+    background-color: #FFDAB9;
+    padding: 70px;
+    width: 500px;
+    margin-left: 40%;
+    top: 75px;
+    outline: 2px solid white;
+    outline-offset: -30px;
+    height: 300px;
+    text-align: center;
+    
+	bebold-fixed {
+		position: fixed;
+		
+	}
+}
+</style> -->
 </head>
 
 <body>
@@ -39,12 +62,43 @@
     </div>
 </body>
 <script>
-$(document).scroll(function() {
-	$("#content").toggle($(this).scrollTop() > 400);
-	console.log("hello");
+
+    var content = $("#content");
+    var min_scroll = 400; // Set your minimum scroll amount here
+    $(document).scroll(
+        function() {
+            var t = $(document).scrollTop();
+            if (t > min_scroll) {
+                // define your scroll CSS here
+                content.css({position: "fixed"});
+				content.css("margin-top", "0px");
+            } else {
+                // define your non-scrolled CSS here
+                content.css({position: "absolute"});
+				content.css("margin-top", "400px");
+            }
+        }
+    );
+// var wrap = $("#wrap");
+
+// wrap.on("scroll", function(e) {
+    
+//   if (this.scrollTop() > 400) {
+//     wrap.addClass("fix-bebold");
+//   } else {
+//     wrap.removeClass("fix-bebold");
+//   }
+  
+//});
+
+// $(document).scroll(function() {
+// 	$("#content").toggle($(this).scrollTop() > 400);
+// 	console.log("hello");
 
     //$("#content").toggle($(this).scrollTop() > 100);
-})
+//})
+// 	<div class="w3-theme-border" style="border-width:3px;background-color:#cae8ca;border-style:solid;position:fixed;padding:5px;bottom:0;right:0;max-width:300px;z-index:999">
+// This &lt;div&gt; element has position: fixed;</div>
 
 </script>
 
