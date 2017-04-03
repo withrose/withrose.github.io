@@ -65,7 +65,7 @@ div.bebold {
 
     var content = $("#content");
     var min_scroll = 400; // Set your minimum scroll amount here
-    $(window).on("load"
+    $(document).scroll(
         function() {
             var t = $(document).scrollTop();
             if (t > min_scroll) {
