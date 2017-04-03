@@ -71,20 +71,21 @@
         </div>
     </div>
 </body>
+
 <script>
     var content = $("#content");
-    var min_scroll = 400; // Set your minimum scroll amount here
+    var min_scroll = 470; // Set your minimum scroll amount here
     $(document).scroll(
         function() {
             var t = $(document).scrollTop();
             if (t > min_scroll) {
                 // define your scroll CSS here
                 content.css({position: "fixed"});
-				content.css("margin-top", "0px");
+				content.css("margin-top", "30px");
             } else {
                 // define your non-scrolled CSS here
                 content.css({position: "absolute"});
-				content.css("margin-top", "400px");
+				content.css("margin-top", "500px");
             }
         }
     );

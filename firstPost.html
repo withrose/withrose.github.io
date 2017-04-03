@@ -55,27 +55,28 @@ div.bebold {
             <img src="pic3.jpg" class="photos">
             <br>
         </div>
+<!--		<div id="rectangle" </div>-->
         <div id="content">
             <p>BOLD. Because when you're wearing all black, it's like bold font, you know? ... I know I know, bad start to a blog. But welcome to my first post! I am excited to share my stories with you.</p>
             <p> First things first, I love black. Maybe it's because I've always dreamed of being a New Yorker (and are you even a true New Yorker if you don't wear all black every day?), but I love how streamlined and effortlessly professional you look when you wear all black. To avoid looking boring, try adding a little pizzaz to your outfit, maybe by incorporating different materials like this leather jacket against the chiffon top, or encorporating hints of white like these bomb ass pants, or by peeping a little bit of skin through strategically placed cutouts. Sexy, but not too try hard, you know? What do you think? Is all black the answer?</p>
         </div>
     </div>
 </body>
-<script>
 
+<script>
     var content = $("#content");
-    var min_scroll = 400; // Set your minimum scroll amount here
+    var min_scroll = 470; // Set your minimum scroll amount here
     $(document).scroll(
         function() {
             var t = $(document).scrollTop();
             if (t > min_scroll) {
                 // define your scroll CSS here
                 content.css({position: "fixed"});
-				content.css("margin-top", "0px");
+				content.css("margin-top", "30px");
             } else {
                 // define your non-scrolled CSS here
                 content.css({position: "absolute"});
-				content.css("margin-top", "400px");
+				content.css("margin-top", "500px");
             }
         }
     );
