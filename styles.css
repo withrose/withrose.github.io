@@ -211,13 +211,14 @@ body {
 
 #content {
     float: left;
-    position: fixed;
+    position: absolute;
     font-size: 20px;
     line-height: 30px;
     overflow: auto;
     background-color: #FFDAB9;
     padding: 70px;
     width: 500px;
+    margin-top: 400px;
     margin-left: 40%;
     top: 75px;
     outline: 2px solid white;
