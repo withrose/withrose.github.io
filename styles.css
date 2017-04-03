@@ -175,22 +175,6 @@ body {
     margin-top: 70px;
 }
 
-
-/*
-
-
-
-
-
-
-
-
-
-
-
-
-*/
-
 #firstphoto {
     margin-top: 75px;
 }
@@ -216,14 +200,15 @@ body {
     line-height: 30px;
     overflow: auto;
     background-color: #FFDAB9;
-    padding: 70px;
-    width: 500px;
-    margin-top: 400px;
+    padding: 30px;
+    width: 440px;
+    margin-top: 430px;
     margin-left: 40%;
-    top: 75px;
-    outline: 2px solid white;
-    outline-offset: -30px;
-    height: 300px;
+    top: 30px;
+    border: 2px solid white;
+    outline: 28px solid #FFDAB9;
+    outline-offset: 16px;
+    height: 240px;
     text-align: center;
 }
 
@@ -245,15 +230,6 @@ body {
     font-size: 21px;
 }
 
-
-/*
-
-
-
-
-
-
-*/
 
 #aboutcontent {
     text-align: center;
