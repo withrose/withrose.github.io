@@ -22,7 +22,6 @@
         <center>
             <a href="index.html"> <img src="withRoseLogo.png" id="logo"></a>
         </center>
-        <p id="adventure">...and so the adventure begins</p>
         <div class="dropdown" id="prevcontent">
             PREVIOUS CONTENT
             <div class="dropdown-content">
@@ -74,7 +73,7 @@
 
 <script>
     var content = $("#content");
-    var min_scroll = 470; // Set your minimum scroll amount here
+    var min_scroll = 310; // Set your minimum scroll amount here
     $(document).scroll(
         function() {
             var t = $(document).scrollTop();
@@ -85,7 +84,7 @@
             } else {
                 // define your non-scrolled CSS here
                 content.css({position: "absolute"});
-				content.css("margin-top", "500px");
+				content.css("margin-top", "340px");
             }
         }
     );

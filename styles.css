@@ -3,17 +3,8 @@ body {
 }
 
 #logo {
-    width: 30%;
-    padding-top: 5%;
-}
-
-#adventure {
-    font-family: "Dancing Script";
-    font-size: 30px;
-    text-align: right;
-    padding-right: 5%;
-    padding-bottom: 5%;
-    text-shadow: 4px 4px 2px #FFDAB9;
+    width: 50%;
+    padding-top: 0;
 }
 
 .dropdown {
@@ -202,13 +193,12 @@ body {
     background-color: #FFDAB9;
     padding: 30px;
     width: 440px;
-    margin-top: 500px;
+    margin-top: 340px;
     margin-left: 48%;
     top: 30px;
-/*    border: 2px solid white;*/
     outline: 30px solid #FFDAB9;
     outline-offset: 4px;
-    height: 490px;
+    height: 70%;
     text-align: center;
 }
 
