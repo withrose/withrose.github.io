@@ -2,6 +2,12 @@ body {
     font-family: "Josefin Sans";
 }
 
+.tinyroses {
+    opacity: 0;
+    width: 3%;
+    vertical-align: middle;
+}
+
 #logo {
     width: 50%;
     padding-top: 0;
