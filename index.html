@@ -6,14 +6,16 @@
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="jquery-3.2.0.min.js"></script>
 </head>
 
 <body>
     <center><img src="withRoseLogo.png" id="logo"></center>
-    <div class="dropdown" id="prevcontent">
-        PREVIOUS CONTENT
+    <div class="dropdown" id="prevcontent" onmouseenter="showRose()" onmouseleave="deleteRose()">
+        <img src = 'rose_1.png' class="tinyroses">PREVIOUS CONTENT<img src = 'rose_2.png' class="tinyroses">
         <div class="dropdown-content">
-            <a href="firstPost.html">Be BOLD</a><br>
+            <a href="firstPost.html">Be BOLD</a>
+            <br>
             <a href="someThoughts.html">Some Thoughts</a>
         </div>
     </div>
@@ -38,6 +40,16 @@
             <p class="continue">...<a href="firstPost.html">(continue reading)</a>...</p>
         </div>
     </div>
+    <script>
+    function showRose() {
+        console.log("Hello");
+        $(".tinyroses").css("opacity", "1");
+    }
+
+    function deleteRose() {
+        $(".tinyroses").css("opacity", "0");
+    }
+    </script>
 </body>
 
 </html>
