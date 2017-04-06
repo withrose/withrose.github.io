@@ -10,57 +10,56 @@
 </head>
 
 <body>
-    <div>
-        <center>
-            <a href="index.html"> <img src="withRoseLogo.png" id="logo"></a>
-        </center>
-        <div class="dropdown" id="prevcontent">
-            PREVIOUS CONTENT
-            <div class="dropdown-content">
-                <a href="firstPost.html">Be BOLD</a>
-                <br>
-                <a href="someThoughts.html">Some Thoughts</a>
-            </div>
-        </div>
-        <a href="contact.html" class="dropdown" id="link">ABOUT ME</a>
-        <div id="pics">
-            <img id="firstphoto" src="pic1.jpg" class="photos">
-            <br>
-            <img src="pic2.jpg" class="photos">
-            <br>
-            <img src="pic3.jpg" class="photos">
-            <br>
-        </div>
-        <div id="content">
-			<h1>Be BOLD</h1>
-			<p>by: Hana</p>
-            <p>First things first, I love black. Maybe it's because I've always dreamed of being a New Yorker. (I mean..
-			Are you really a true New Yorker if you don't wear all black?) </p>
-			<p>I love how streamlined and effortlessly professional you look when you wear all black. But to avoid looking boring,
-			try adding a little pizzaz to your outfit! For example, these black lace pants with the white underlay are super fun
-			and cute! In addition, cutouts are super in right now - and it's a good way to peep a little skin without it being
-			too scandalous.</p>
-			<p>Incorporating different materials is a great way to spice up a monotone look! Pair a leather jacket
-			with some chiffon for an edgy but sweet look. </p>
-			<p>What do you think? Is all black the answer?</p>
-        </div>
+    <!--website header-->
+    <div id="header"></div>
+    <div><center><img src="withRoseLogo.png" id="logo"></center></div>
+    <div id="menu_strip">
+        <a href="index.html" class="menu" style="left:25%;">HOME</a>
+        <a href="archive.html" class="menu" style="left:47.5%;">ARCHIVE</a>
+        <a href="about.html" class="menu" style="right:25%;">ABOUT</a>
     </div>
+	
+	<!--pictures-->
+	<div style="float:left;">
+		<img id="firstphoto" src="pic1.jpg" class="photos"> <br>
+		<img src="pic2.jpg" class="photos"> <br>
+		<img src="pic3.jpg" class="photos"> <br>
+	</div>
+	
+	<!--writing-->
+	<div id="content">
+		<h1>Be BOLD</h1>
+		<p>by: Hana</p>
+		
+		<p>First things first, I love black. Maybe it's because I've always dreamed of being a New Yorker. (I mean..
+		Are you really a true New Yorker if you don't wear all black?) </p>
+		<p>I love how streamlined and effortlessly professional you look when you wear all black. But to avoid looking boring,
+		try adding a little pizzaz to your outfit! For example, these black lace pants with the white underlay are super fun
+		and cute! In addition, cutouts are super in right now - and it's a good way to peep a little skin without it being
+		too scandalous.</p>
+		<p>Incorporating different materials is a great way to spice up a monotone look! Pair a leather jacket
+		with some chiffon for an edgy but sweet look. </p>
+		<p>What do you think? Is all black the answer?</p>
+	</div>
+	
+	<!--website footer-->
+    <div id="footer" style="margin-top:-160px;"></div>
 </body>
 
 <script>
     var content = $("#content");
-    var min_scroll = 310; // Set your minimum scroll amount here
+    var min_scroll = 320; // Set your minimum scroll amount here
     $(document).scroll(
         function() {
             var t = $(document).scrollTop();
             if (t > min_scroll) {
                 // define your scroll CSS here
                 content.css({position: "fixed"});
-				content.css("margin-top", "30px");
+				content.css("margin-top", "40px");
             } else {
                 // define your non-scrolled CSS here
                 content.css({position: "absolute"});
-				content.css("margin-top", "340px");
+				content.css("margin-top", "360px");
             }
         }
     );
