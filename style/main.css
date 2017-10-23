@@ -1,0 +1,331 @@
+body {
+    font-family: "Josefin Sans";
+}
+
+p {
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 100px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.img_firstPost {
+    width: 75%;
+    display: block;
+    margin: auto;
+}
+
+#ig_container {
+    position: relative;
+    text-align: center;
+}
+
+.instaphoto {
+    width: 15%;
+    border-radius: 50%;
+    padding: 5px 25px 5px 25px;
+}
+
+#header {
+    width: 100%;
+    height: 25px;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#footer {
+    width: 100%;
+    height: 25px;
+    background-color: black;
+    position: absolute;
+    top: 2005px;
+    left: 0px;
+}
+
+#logo {
+    width: 50%;
+    padding-top: 25px;
+    display: block;
+    margin: auto;
+}
+
+#menu_strip {
+    width: 100%;
+    height: 25px;
+    background-color: black;
+    position: absolute;
+    left: 0px;
+}
+
+.menu {
+    float: left;
+    position: absolute;
+    margin-top: 6px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu:hover {
+    color: #FBDAE1;
+}
+
+.img_1 {
+    position: relative;
+    left: 9%;
+    top: 85px;
+    width: 36%;
+
+    outline: 1px solid white;
+    outline-offset: -5px;
+    border: 1px solid black;
+
+    color: white;
+    text-decoration: none;
+
+    z-index: -1;
+}
+
+.img_2 {
+    position: relative;
+    float: right;
+    right: 9%;
+    top: 85px;
+    width: 36%;
+
+    outline: 1px solid white;
+    outline-offset: -5px;
+    border: 1px solid black;
+}
+
+.img_3 {
+    position: relative;
+    left: 9%;
+    top: 125px;
+    width: 36%;
+
+    outline: 1px solid white;
+    outline-offset: -5px;
+    border: 1px solid black;
+}
+
+.img_4 {
+    position: relative;
+    float: right;
+    margin-right: 9%;
+    top: 125px;
+    width: 36%;
+
+    outline: 1px solid white;
+    outline-offset: -5px;
+    border: 1px solid black;
+}
+
+.img_5 {
+    position: relative;
+    left: 9%;
+    top: 165px;
+    width: 36%;
+
+    outline: 1px solid white;
+    outline-offset: -5px;
+    border: 1px solid black;
+}
+
+.img_6 {
+    position: relative;
+    float: right;
+    margin-right: 9%;
+    top: 165px;
+    width: 36%;
+
+    outline: 1px solid white;
+    outline-offset: -5px;
+    border: 1px solid black;
+}
+
+.button {
+    background-color: black;
+    border: 1px solid white;
+    width: 15%;
+    height: 40px;
+    position: relative;
+
+    text-align: center;
+    vertical-align: middle;
+    font-family: "Josefin Sans";
+    font-size: medium;
+    color: white;
+    cursor: pointer;
+    outline: 0;
+}
+
+.button span {
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.continue {
+    text-align: right;
+}
+
+.continue:hover {
+    font-weight: bold;
+}
+
+.continue a {
+    text-decoration: none;
+    color: black;
+}
+
+#text-body {
+    background-color: #FFDAB9;
+    width: 340px;
+    text-align: center;
+    padding: 90px 60px 90px 60px;
+    outline: 2px solid white;
+    outline-offset: -10px;
+    position: absolute;
+    margin-left: 55%;
+    margin-top: 288px;
+}
+
+#header1 {
+    float: left;
+    margin-left: 0;
+    font-size: 40px;
+    position: absolute;
+    outline: 2px solid white;
+    outline-offset: -10px;
+    margin-top: 70px;
+    padding-top: 50px;
+    background-color: #FFDAB9;
+    text-align: center;
+    text-align: center;
+    width: 460px;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 688px;
+}
+
+#text-body1 {
+    background-color: #FFDAB9;
+    width: 340px;
+    text-align: center;
+    padding: 90px 60px 90px 60px;
+    outline: 2px solid white;
+    outline-offset: -10px;
+    position: absolute;
+    margin-top: 888px;
+    margin-left: 100px;
+}
+
+#collage1 {
+    width: 40%;
+    float: left;
+    padding: 15px;
+    outline: 5px solid #FFDAB9;
+    outline-offset: -30px;
+    margin-left: 50%;
+    margin-top: 70px;
+}
+
+#firstphoto {
+    margin-top: 75px;
+}
+
+.photos {
+    float: left;
+    width: 300px;
+    margin: 15px;
+    margin-left: 150px;
+    position: relative;
+    outline: 1px solid white;
+    outline-offset: -5px;
+    border: 1px solid black;
+}
+
+#content {
+    float: left;
+    position: absolute;
+    font-size: 20px;
+    line-height: 30px;
+    overflow: auto;
+    background-color: white;
+    padding: 30px;
+    width: 440px;
+    margin-top: 360px;
+    margin-left: 48%;
+    top: 30px;
+    outline: 1px solid black;
+    outline-offset: 30px;
+    border: 1px solid #FBDAE1;
+    height: 60%;
+    text-align: center;
+}
+
+#content li {
+    list-style-type: none;
+}
+
+#readings {
+    line-height: 25px;
+}
+
+#readings a {
+    text-decoration: none;
+    color: black;
+}
+
+#readings a:hover {
+    font-weight: bold;
+    font-size: 21px;
+}
+
+
+#aboutcontent {}
+
+#connect {
+    text-align: center;
+}
+
+#connect img {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+
+/*
+.tinyroses {
+    opacity: 0;
+    width: 3%;
+    vertical-align: middle;
+}*/
